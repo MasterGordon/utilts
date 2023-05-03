@@ -1,0 +1,22 @@
+{
+  "name": "utilts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --minify --clean --sourcemap --dts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "MasterGordon",
+  "license": "ISC",
+  "devDependencies": {
+    "tsd": "^0.28.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4",
+    "vite-plugin-vitest-typescript-assert": "^1.1.4",
+    "vitest": "^0.30.1"
+  }
+}
